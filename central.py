@@ -210,39 +210,3 @@ while loop:
 
     else:
         raw_input("Wrong option selected, continue and try again by pressing any key")
-
-
-
-
-# for x in storey:
-#     print "The name of the floor is ", x.f_name, "with the id : " ,x.f_id, "and access and sec levels", x.f_acc, x.f_sec
-#     print "\n"
-#     for y in room:
-#         if(y.fl_id == x.f_id):
-#             print "\t This floor contains", y.sp_name, "with the id : ", y.sp_id, "and access and sec", y.sp_acc, y.sp_sec
-#j = 0
-# dict_fl = {}
-# print "The list of floors in the building is as follows"
-# j = 0
-# for x in storey:
-#     dict_fl[j] = x.f_name
-#     j += 1
-# print dict_fl
-#
-# ch = input("Choose the floor on which you want to see the rooms\n")
-# for x in dict_fl:
-#     if ch == x:
-#         if ch > 0:
-#             for z in range(floor_len[ch-1], floor_len[ch]):
-#                 print room[z].sp_name, "\n", room[z].sp_id, room[z].floor.f_name
-#                 print "\n"
-#         else:
-#             for z in range(0, floor_len[1]):
-#                 print room[z].sp_name, "\n", room[z].sp_id, room[z].floor.f_name
-#
-# print dict_fl
-# p = input("Choose the floor number you want to change!!\n")
-# for x in storey:
-#     if dict_fl[p] == x.f_name:
-#         functions.floor_prop_change(x)
-#         print x.f_name, "is being changed to", "A", x.f_acc, "S", x.f_sec
